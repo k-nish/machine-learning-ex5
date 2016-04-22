@@ -20,8 +20,19 @@ grad = zeros(size(theta));
 %
 
 
+%calculate h_theta
+h_theta = X * theta;
 
+%calculate J
+%J = 1/(2 * m) * sum(((h_theta - y).^2)') + lambda / (2 * m) * sum(theta.^2);
 
+%disp(X);
+%disp("上がX");
+%disp(y);
+%disp("下がtheta");
+%disp(theta);
+%disp("h_theta-y");
+%disp(h_theta-y);
 
 
 
