@@ -24,7 +24,7 @@ grad = zeros(size(theta));
 h_theta = X * theta;
 
 %calculate J
-%J = 1/(2 * m) * sum(((h_theta - y).^2)') + lambda / (2 * m) * sum(theta.^2);
+%J = 1/(2 * m) * sum(((h_theta - y).^2)') + lambda / (2 * m) * sum(theta.^2l);
 
 %disp(X);
 %disp("上がX");
